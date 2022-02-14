@@ -86,7 +86,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="272,244" sap2010:WorkflowViewState.IdRef="Sequence_43">
+  <Sequence sap:VirtualizedContainerService.HintSize="272,345" sap2010:WorkflowViewState.IdRef="Sequence_43">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -290,5 +290,6 @@
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_12" Text="I am first write line" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="i am second write line" />
   </Sequence>
 </Activity>
